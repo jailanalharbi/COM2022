@@ -18,6 +18,7 @@ The protocol was designed to handle various actions such as the number of client
 
 
 ## MacOs
+Run this command in the terminal.\
 `sudo sysctl -w net.inet.udp.maxdgram=65535`
 
 
