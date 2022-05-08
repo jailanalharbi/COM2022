@@ -51,8 +51,8 @@ def recieveFunction():
             if message[0] == 'LOGIN':
                 print('LOGIN')
 
-                if len(CLIENT) >= 4:
-                    text = "MESSAGE::FULL"
+                if len(CLIENT) >= 2: 
+                    text = "MESSAGE::FULL". # Will display if 3 clients try to join
                     server_socket.sendto(base64.b64encode(text.encode('ascii')),client_addr)
                 else:
                     
