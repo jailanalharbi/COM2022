@@ -34,7 +34,7 @@ Run this command in the terminal.\
 
 
 ## Testing with multiple clients
-Run the client file multiple times (careful: there's a limit on the number of clients allowed)
+Run the client file multiple times in different termials (careful: there's a limit on the number of clients allowed)
  
 ## Testing on different machines
  In the client.py file, replace `(host_ip = '0.0.0.0')` with the IP address of the recieiving machine. 
