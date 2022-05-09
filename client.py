@@ -16,7 +16,7 @@ client_socket.setsockopt(socket.SOL_SOCKET,socket.SO_RCVBUF,BUFF_SIZE)
 host_name = socket.gethostname()
 host_ip = '0.0.0.0' # socket.gethostbyname(host_name) or replace '0.0.0.0' with recieiving machine's IP address. 
 print(host_ip)
-port = 9999
+port = 9995
 RTT_list = []
 
 
